@@ -22,7 +22,7 @@ class Product(models.Model):
     product_id = models.IntegerField()
     product_name = models.CharField(max_length=20)
     product_description = models.TextField()
-    product_image = models.FilePathField(path="/img")
+    # product_image = models.FilePathField(path="/img")
 
 # ~ Users
 class Shopper(models.Model):
