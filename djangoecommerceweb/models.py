@@ -7,10 +7,12 @@ class Cart(models.Model):
 class Order(models.Model): 
     order_id = models.IntegerField()
 
-# class DeliveryProcess(models.Model) : 
+class Coupon(models.Model):
+    coupon_id = models.IntegerField()
+
+# class DeliveryStatus(models.Model) : 
 #     order_id = models.ForeignKey(Order)
 
-# ~ Payment
 class ShoppingHistory(models.Model) :
     shopping_id = models.IntegerField()
 
